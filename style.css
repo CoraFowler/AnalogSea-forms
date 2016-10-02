@@ -1,0 +1,88 @@
+body {
+	 background-color: #4da6ff;
+	 margin:0;
+	 padding: 0;
+	 font-family: 'Hind', sans-serif;	 
+}
+header {
+	display:block;
+	padding: 40px 0 0 0;
+	position:relative;
+	text-align: center;
+}
+section {
+	background-color: white;
+	color:white;
+	font-size: 16px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+h1 {
+	font-size:30px;
+	display: block;
+	text-align: center;
+	color: black;
+	padding: 40px 0 20px 0;
+}
+.signup{ 
+		padding-left: 40px;
+		padding-right: 40px; 
+	}
+
+input{
+	display:block;
+	/*box-sizing: content-box;*/
+	width: 288px;
+	border-radius: 5px;
+	border: 2px solid #d9d9d9;
+	padding: 15px;
+	font-size: 16px;
+	margin:0;
+
+}
+label {
+	display:block;
+	color:black;
+	width: auto;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+button {
+	display:inline-block;
+	box-sizing: content-box;
+	height: 25px;
+	width: 288px;
+	background-color: #00cc66;
+	border: 2px solid #00cc66;
+	color: white;
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 20px;
+	margin:15px 0;
+}
+button:hover {
+    background-color: #00b359;
+}
+.forgot {
+	text-align: center;
+	display:block;
+	margin:0 auto;
+	padding: 0px 0 30px 0;
+	text-decoration: none;
+	color: #a6a6a6;
+}
+.login {
+	text-align: center;
+	display:block;
+	margin:0 auto;
+	padding: 0px 0 30px 0;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
