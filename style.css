@@ -15,7 +15,7 @@ section {
 	color:white;
 	font-size: 16px;
 	width: 400px;
-	margin-left: auto;
+	margin-left: auto; /*<margin 0 auto;>*/
 	margin-right: auto;
 	border-radius: 5px;
 }
@@ -28,7 +28,7 @@ h1 {
 	padding: 40px 0 20px 0;
 }
 .signup{ 
-		padding-left: 40px;
+		padding-left: 40px; /*consolidate*/
 		padding-right: 40px; 
 }
 input {
@@ -45,13 +45,13 @@ label {
 	color:black;
 	width: auto;
 	margin: 0;
-	padding-top: 10px;
+	padding-top: 10px; /*consolidate*/
 	padding-bottom: 10px;
 }
 button {
 	display:inline-block;
 	box-sizing: content-box;
-	height: 25px;
+	height: 25px; /*can conslidate with padding and text */
 	width: 288px;
 	background-color: #00cc66;
 	border: 2px solid #00cc66;
@@ -67,7 +67,7 @@ button:hover {
 .forgot {
 	text-align: center;
 	display:block;
-	margin:0 auto;
+	/*margin:0 auto;*/
 	padding: 0px 0 30px 0;
 	color: #a6a6a6;
 }
@@ -78,7 +78,7 @@ button:hover {
 	text-align: center;
 	display:block;
 	margin:0 auto;
-	padding: 0px 0 30px 0;
+	/*padding: 0px 0 30px 0; because of text-align center*/
 	color: white;
 }
 .login a {
