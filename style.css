@@ -30,10 +30,9 @@ h1 {
 .signup{ 
 		padding-left: 40px;
 		padding-right: 40px; 
-	}
+}
 input {
 	display:block;
-	/*box-sizing: content-box;*/
 	width: 288px;
 	border-radius: 5px;
 	border: 2px solid #d9d9d9;
@@ -83,5 +82,7 @@ button:hover {
 	color: white;
 }
 .login a {
+	text-decoration: none;
 	color: inherit;
+	font-weight: bold;
 }
